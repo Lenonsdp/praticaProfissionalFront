@@ -1,0 +1,51 @@
+.base {
+	background-color: #F5F5F5;
+	min-height: 100vh;
+	padding: 10px;
+}
+
+.price {
+	font-size: 48px;
+}
+
+@media (max-width: 784px) {
+	#teste {
+		height: 55px;
+		font-size: 24px;
+	}
+
+	.price {
+		font-size: 26px;
+	}
+
+	.buttonMore {
+		height: 64px !important;
+		font-size: 33px !important;
+	}
+
+	.base {
+		width: max-content;
+	}
+}
+
+.card-container {
+	height: 330px;
+	margin-bottom: 24px;
+	background-color: #FFF;
+	cursor: pointer;
+}
+
+.media-body {
+	padding: 35px;
+}
+
+.button-search {
+	box-shadow: none;
+	color: #000;
+	background-color: #efefef;
+	border-color: 'transparent';
+}
+
+.media {
+	align-items: center !important;
+}

@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    command: npm run start
+    ports:
+        - 4000:4000
+    volumes:
+        - .:/usr/src/app
+        - /usr/src/app/node_modules
+        - /usr/src/app/.next
+    networks:
+        - next-net
+networks:
+  next-net:
+    name: custom_network

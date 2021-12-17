@@ -1,0 +1,27 @@
+{
+  "name": "promoashow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && next start -p 4000",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-plugin-styled-components": "^1.13.3",
+    "bootstrap": "^4.6.0",
+    "date-fns": "^2.0.0-beta.5",
+    "date-fns-tz": "^1.1.4",
+    "next": "^9.3.6",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  }
+}
